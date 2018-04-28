@@ -10,10 +10,10 @@ def  getPic(page):
     response = requests.get("http://www.budejie.com/pic/%s" % page)
     html = response.text
     reg = r'data-original="(.*?)"'
-    for i in re.findall(reg,html):
+    for i in re.findall(reg, html):
         filename = i.split("/")[-1]
-        print("正在下载:%s" %filename)
-        urllib.request.urlretrieve(i,"pic/%s" % filename)
+        print("正在下载:%s" % filename)
+        urllib.request.urlretrieve(i, "pic/%s" % filename)
 
 for i in range(1,10):
     getPic(i)
