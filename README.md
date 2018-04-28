@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
@@ -1896,3 +1897,7 @@ class Anagram:
 >  可参考：[动态规划(DP)的整理-Python描述](http://blog.csdn.net/mrlevo520/article/details/75676160)
 
 
+=======
+# python-36
+python36爬虫学习
+>>>>>>> 34fe332338e85b84112f149de2b21db59df89d16
